@@ -1,38 +1,145 @@
-.app__header{
-    background: url("../../assets/159589-machu-picchu-peru-1920x1080-wallpaper.png");
-    width: 100%;
-    height: 60vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: repeat;
+.app__header {
+  background: url("../../assets/159589-machu-picchu-peru-1920x1080-wallpaper.png");
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  position: relative;
+  box-shadow: black inset 1px -20px 70px 1px;
 
-    .app__header-container {
+  .app__header-container {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      width: 9rem;
+      height: 3rem;
+      margin: 1rem 0.5rem;
+    }
+  }
+
+  .app__container-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .phone {
+    padding: 0.5rem;
+    font-size: 0.5rem;
+    border-radius: 0.8rem;
+    background-color: white;
+    border: 0.05rem solid gray;
+    margin: 0.3rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .icon {
+      color: var(--primary-color);
+      margin: 0 0.3rem 0 0;
+    }
+  }
+  .versions {
+    padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+    font-size: 0.5rem;
+    border-radius: 0.8rem;
+    background-color: white;
+    border: 0.05rem solid gray;
+    margin: 0.3rem 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; /* Remove default arrow */
+    background-image: url("../../assets/arrow.svg"); /* Add custom arrow */
+    background-repeat: no-repeat;
+  }
+  .app__header-greetins {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 0.6rem;
+    margin: 0.6rem 0.6rem;
+    p {
+      margin: 0.5rem 0.5rem 1rem 0rem;
+    }
+  }
+  .app__header-linkwhyus {
+    margin: 1rem 0rem;
+    display: flex;
+    align-items: center;
+    a {
+      margin-right: 0.5rem;
+      color: white;
+      cursor: pointer;
+    }
+  }
+  .app__header-awards {
+    border: 0.1rem solid white;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    .awards {
+      border-right: 0.1rem solid white;
+      text-align: center;
+      padding: 0.1rem;
+      span {
+        color: green;
+        font-weight: bold;
+      }
+    }
+    .trustpilot {
+      text-align: center;
+      padding: 0.4rem;
+      display: flex;
+    }
+  }
+  .app__header-advisor-info {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 9rem;
+    height: 4rem;
+    border: 0.15rem solid #dbdbdb82;
+    margin: 0.6rem;
+    border-radius: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .app__header-advisor {
+      color: white;
+      font-size: 0.6rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: flex-start;;
+      .phoneAdvisor {
         display: flex;
-        justify-content: space-between;
-
-        img{
-            width: 10rem;
-            height: auto;
-            margin: 1rem 0.5rem;
+        .icon {
+          color: var(--primary-color);
+          margin: 0 0.3rem 0 0;
         }
+      }
+      .buttonReadme {
+        background-color: var(--primary-color);
+        color: white;
+        padding: 2px;
+        text-decoration: none;
+        padding: 5px 6px;
+        text-decoration: none;
+        width: max-content;
+        border-radius: 5px;
+      }
     }
 
-    .app__container-info {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    img {
+      width: 2.2rem;
+      height: 2.2rem;
+      border-radius: 50%;
     }
-
-    .phone{
-
-
-        span{
-            font-size: 1rem;
-            margin: 0 0.5rem;
-        }
-    }
-    .versions{
-        margin: 0 0.5rem;
-        
-    }
+  }
 }

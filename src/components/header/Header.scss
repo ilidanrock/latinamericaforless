@@ -13,17 +13,20 @@
     justify-content: space-between;
 
     img {
-      width: 9rem;
-      height: 3rem;
-      margin: 1rem 0.5rem;
+      width: calc(12rem + 3vw);
+      height: calc(4rem + 1.8vw);
+      margin: calc(1rem + 1vw) calc(.5rem + 3vw);
+      object-fit: cover;
     }
   }
 
   .app__container-info {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    height: 8rem;
+    margin-right: calc(1rem + 3vw);
   }
 
   .phone {
@@ -62,9 +65,14 @@
     bottom: 0;
     color: white;
     font-size: 0.6rem;
-    margin: 0.6rem 0.6rem;
+    margin: calc(0.6rem + 3vw) calc(0.6rem + 4vw);
     p {
       margin: 0.5rem 0.5rem 1rem 0rem;
+      font-weight: 300;
+      font-size: var(--font-primary);
+    }
+    span {
+      font-size: var(--font-primary);
     }
   }
   .app__header-linkwhyus {
@@ -75,6 +83,7 @@
       margin-right: 0.5rem;
       color: white;
       cursor: pointer;
+      font-size: var(--font-primary);
     }
   }
   .app__header-awards {
@@ -82,10 +91,12 @@
     display: flex;
     width: fit-content;
     height: fit-content;
+
     .awards {
       border-right: 0.1rem solid white;
       text-align: center;
-      padding: 0.1rem;
+      padding: 0.15rem 0.4rem;
+      align-items: center;
       span {
         color: green;
         font-weight: bold;
@@ -95,6 +106,8 @@
       text-align: center;
       padding: 0.4rem;
       display: flex;
+      font-size: calc(10px + 0.2vw);
+      align-items: center;
     }
   }
   .app__header-advisor-info {
@@ -116,7 +129,7 @@
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      align-items: flex-start;;
+      align-items: flex-start;
       .phoneAdvisor {
         display: flex;
         .icon {

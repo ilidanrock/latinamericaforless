@@ -31,7 +31,7 @@
 
   .phone {
     padding: 0.5rem;
-    font-size: 0.5rem;
+    font-size: calc(0.6rem + 0.4vw);
     border-radius: 0.8rem;
     background-color: white;
     border: 0.05rem solid gray;
@@ -45,8 +45,8 @@
     }
   }
   .versions {
-    padding: 0.5rem 0.5rem 0.5rem 1.5rem;
-    font-size: 0.5rem;
+    padding: 0.6rem 0.5rem 0.6rem 2rem;
+    font-size: calc(0.6rem + 0.4vw);
     border-radius: 0.8rem;
     background-color: white;
     border: 0.05rem solid gray;
@@ -114,10 +114,10 @@
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 9rem;
-    height: 4rem;
+    width: calc(12rem + 7vw);
+    min-height: 6rem;
     border: 0.15rem solid #dbdbdb82;
-    margin: 0.6rem;
+    margin: calc(0.6rem + 3vw) calc(0.1rem + 1vw);
     border-radius: 0.8rem;
     display: flex;
     flex-direction: row;
@@ -130,6 +130,9 @@
       flex-direction: column;
       justify-content: space-around;
       align-items: flex-start;
+      figure{
+        flex:0.3
+      }
       .phoneAdvisor {
         display: flex;
         .icon {
@@ -150,9 +153,10 @@
     }
 
     img {
-      width: 2.2rem;
-      height: 2.2rem;
+      width: calc(2.3rem + 3vw);
+      height: calc(2.3rem + 3vw);;
       border-radius: 50%;
+      margin: calc(1rem + 1vw) calc(0.5rem + 0.5vw);
     }
   }
 }

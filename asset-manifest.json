@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.82037283.css",
+    "main.js": "/static/js/main.7480f3d9.js",
+    "static/js/787.a68695e9.chunk.js": "/static/js/787.a68695e9.chunk.js",
+    "static/media/159589-machu-picchu-peru-1920x1080-wallpaper.png": "/static/media/159589-machu-picchu-peru-1920x1080-wallpaper.a71219ca0cefa30558c5.png",
+    "static/media/perruless.png": "/static/media/perruless.941ff7194e1e9e6ea893.png",
+    "index.html": "/index.html",
+    "static/media/arrow.svg": "/static/media/arrow.5a00790189124a0565206bd16227c078.svg",
+    "main.82037283.css.map": "/static/css/main.82037283.css.map",
+    "main.7480f3d9.js.map": "/static/js/main.7480f3d9.js.map",
+    "787.a68695e9.chunk.js.map": "/static/js/787.a68695e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82037283.css",
+    "static/js/main.7480f3d9.js"
+  ]
+}

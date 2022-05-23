@@ -54,7 +54,7 @@ const Header = () => {
               <BsFillTelephoneFill className="icon" size={10} />
               <div>1-415-800-4781</div>
             </div>
-            <a className="buttonReadme" href="#">Read more</a>
+            {/* <a className="buttonReadme" href="#">Read more</a> */}
           </div>
         </div>
       </div>

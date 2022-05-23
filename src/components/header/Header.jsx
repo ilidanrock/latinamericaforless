@@ -29,7 +29,7 @@ const Header = () => {
           </p>
           <span>Let's start planning!</span>
           <div className="app__header-linkwhyus">
-            <a href="http://">Why us?</a>
+            {/* <a href="http://">Why us?</a> */}
             <BiCaretRightCircle size={15} />
           </div>
 
